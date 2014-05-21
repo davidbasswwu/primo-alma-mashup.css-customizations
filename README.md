@@ -1,9 +1,7 @@
-primo-alma-openurl-mashup.css-customizations
-============================================
+Primo openurl / Alma mashup.css customizations
+---
 
-# Primo openurl / Alma mashup.css customizations
-
-Here are the steps I took to change the CSS on our openurl pages (example: http://tinyurl.com/openurl-example)
+Here are the steps I took to change the CSS on our openurl pages (example: http://tinyurl.com/openurl-example) which are powered by ExLibris Alma/Primo:
 
 1.	I modified the existing CSS and created new classes by using Chrome's "inspect element" style editor.
 
