@@ -1,11 +1,7 @@
 primo-alma-openurl-mashup.css-customizations
 ============================================
 
-Primo openurl / Alma mashup.css customizations
-
-David Bass
-WWU Libraries
-21 May 2014
+# Primo openurl / Alma mashup.css customizations
 
 Here are the steps I took to change the CSS on our openurl pages (example: http://tinyurl.com/openurl-example)
 
