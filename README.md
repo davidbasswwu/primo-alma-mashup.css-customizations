@@ -15,7 +15,7 @@ Here are the steps I took to change the CSS on our openurl pages (example: http:
 
 4.	Zip the files and upload them into Alma.
 
-5.	Login to the Primo Back Office (PBO), go to Advanced Configuration > All Mapping Tables> Delivery > Templates, and append "&req.skin=viewit_customizations" to the end of the following mapping tables:  
+5.	Login to the Primo Back Office (PBO), go to Advanced Configuration > All Mapping Tables> Delivery > Templates, and append "&req.skin=viewit_customizations" to the end of the following mapping table values:  
  * Almaviewit
  * Almaviewit_remote
  * almaviewit_services
