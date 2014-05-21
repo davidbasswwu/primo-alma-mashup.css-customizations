@@ -20,4 +20,6 @@ Here are the steps I took to change the CSS on our openurl pages (example: http:
  * Almaviewit_remote
  * almaviewit_services
 
-Please note: ***3rd party cookies must be enabled in your browser for these CSS customizations to work***.  If you have 3rd party cookies disabled (as they are by default in Safari), you will see the default CSS.  
+Please note: 
+ * ***3rd party cookies must be enabled in your browser for these CSS customizations to work***.  If you have 3rd party cookies disabled (as they are by default in Safari), you will see the default CSS.  
+ * the "Public notes" text is not inside of an LI (screenshot: http://bit.ly/1c1pjp6), which makes it difficult to write CSS  for the uResolver ViewIt iFrame.  I reported this to ExLibris in February 2014, but there is no estimated date for a fix yet.  We are currently on Primo 4.6.
