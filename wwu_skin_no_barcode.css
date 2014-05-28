@@ -1,0 +1,85 @@
+/* hide the "barcode" column - 13sep2013 */ 
+.itemsList #TABLE_DATA_item_list th:first-of-type,
+.itemsList #TABLE_DATA_item_list td:first-of-type { display: none !important; }
+
+.tabContent .viewIt {
+	margin: 4px;
+	padding: 4px;
+}
+
+/* 28oct2013 - hide the 'Not needed after' select list, and comment text box */
+/* #noNeedAfterH, #noNeedAfterV, #commentInput, label[for="commentInput"] { 
+	display:none !important;
+} */
+
+#noNeedAfterH, #noNeedAfterV { 
+	display:none !important;
+}
+
+
+.clearfix.getitNoHoldings {
+	margin: 4px;
+	padding: 4px;
+}
+
+/* 4 oct 2013 */
+
+.clearfix.getitNoHoldings > .clearfix.requestOptionNoHoldings:before {
+    content: url('//library.wwu.edu/info/openurl/arrow2.gif') !important;
+    padding-right: 10px;
+}
+
+.clearfix.getitNoHoldings > .clearfix.requestOptionNoHoldings:after {
+    visibility: visible !important;
+	display: inline !important;
+	padding-left: 5px !important;
+	padding-top: 5px !important;
+	content: url('//library.wwu.edu/info/openurl/go.gif') !important;
+}
+
+.clearfix.getitNoHoldings > .clearfix.requestOptionNoHoldings:after + .clearfix.requestOptionNoHoldings:after {
+    /* unapply the changes from above for all but the first siblings */
+    visibility: hidden !important;
+	display: block!important;
+	padding-left: 5px !important;
+	padding-top: 5px !important;
+	content: " " !important;
+}
+
+/* make the links bigger */
+/* disabling temporarily 14jan2014 */
+/*
+input.submitAsLink.popout {
+    font-size: 1.3em !important;
+    line-height: 20px !important;
+}
+*/
+
+input.submitAsLink.popout.requestOption {
+    font-size: 1em !important;
+    line-height: 20px !important;
+}
+
+
+
+/* undo the underline for all but the first link (the ILL link) */
+.clearfix.getitNoHoldings > .clearfix.requestOptionNoHoldings + .clearfix.requestOptionNoHoldings >  input.submitAsLink.popout {
+	border-bottom: 0px solid #ccc;
+    text-decoration:none !important;
+    font-size: 1.0em !important;
+}
+
+/* put a line between the ILL link and the "Report a problem" link */
+.clearfix.getitNoHoldings > div.clearfix.requestOptionNoHoldings:nth-last-child(2) {
+    border-top: 1px solid #ccc;
+    margin-top:5px;
+}
+
+.clearfix.getitNoHoldings > div.clearfix.requestOptionNoHoldings:nth-last-child(2):before {
+	content: " " !important;
+}
+
+.clearfix.getitNoHoldings > div.clearfix.requestOptionNoHoldings:nth-last-child(2):after {
+	content: " " !important;
+}
+
