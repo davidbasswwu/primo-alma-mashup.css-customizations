@@ -1,0 +1,48 @@
+/* David Bass @ WWU */
+
+.tabContent.viewIt {
+	margin: 4px;
+	padding: 4px;
+}
+
+.internalTitle {
+	font-weight: normal;
+}
+
+/* only bold the first UL links; not the set of links found in the 2nd UL */
+.tabContent.viewIt >UL:first-of-type a {
+	font-weight: bold;
+}
+
+.tabContent.viewIt > UL:first-of-type > LI:nth-of-type(odd):before {
+
+	content: url('//library.wwu.edu/info/openurl/arrow2.gif');
+}
+
+
+.tabContent.viewIt >UL:first-of-type > LI:nth-of-type(odd) a:after {
+	padding-left: 5px;
+	padding-top: 5px;
+	content: url('//library.wwu.edu/info/openurl/go.gif');
+}
+
+.tabContent.viewIt UL LI:nth-of-type(even) {
+	padding-left: 34px !important;
+	padding-bottom: 15px !important;
+}
+
+.tabContent.viewIt H1 {
+	padding-top: 15px;
+	border-top: 1px solid #ccc;
+	font-weight: normal;
+	margin-left: 0;	
+}
+
+.tabContent.viewIt UL LI:last-child:before {
+	content: "";
+}
+
+.tabContent.viewIt UL:last-of-type LI:last-child {
+	padding-left: 15px !important;
+
+}
